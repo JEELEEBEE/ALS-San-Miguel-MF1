@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			What is Alternative Learning System - ALS?
+		</h2>
+		<p>Alternative Learning System or ALS is a program designed to provide non-formal, accessible education to individuals who are out of school or cannot attend traditional school settings. It aims to help learners develop basic literacy, numeracy, and life skills, as well as technical and vocational skills, to improve their personal, social, and economic well-being. ALS is often used to reach out to out-of-school youth, adults, and marginalized groups, offering flexible learning options to promote lifelong learning and inclusive education.</p>
+	
+		<h2>
+			Purpose and Significance
+		</h2>
+		<p>The Alternative Learning System (ALS) is designed to provide non-formal education to out-of-school youth, adults, and marginalized groups who cannot access or complete formal schooling. Its purpose is to help learners develop basic literacy, numeracy, life skills, and vocational skills to improve their personal lives, employability, and social participation. 
+
+Its significance lies in promoting inclusive education, ensuring that no one is left behind, and empowering individuals to contribute positively to their communities and the economy. ALS helps bridge educational gaps, fosters lifelong learning, and supports social equity by reaching learners in diverse settings and circumstances.
+</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>Discovering Alternative Learning System opens the door to lifelong learning, empowering every Filipino to grow, learn, and succeed beyond the classroom.</h1>
+	
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Target Learners:</h3>
+				<p>A. Provide equitable access to quality basic education</p>
+   <p>B. Bridge educational gaps for out-of-school youth and adults</p>
+ <p>C. Promote lifelong learning and skills development</p>
+    <p>D. Facilitate social and economic empowerment </p>
+			</div>
+<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Objectives of ALS:</h3>
+				<p>A. Provide equitable access to quality basic education</p>
+   <p>B. Bridge educational gaps for out-of-school youth and adults</p>
+ <p>C. Promote lifelong learning and skills development</p>
+    <p>D. Facilitate social and economic empowerment </p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Components of ALS:</h3>
+				<p> A. Basic literacy and numeracy
+   <p>B. Life skills and values education</p>
+  <p>C. Technical-vocational skills</p>
+   <p>D. Education for out-of-school youth and adults</p>
+  <p>E. Special programs for indigenous peoples, persons with disabilities, etc.</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Benefits of ALS</h3>
+				<p> A. Increased literacy and numeracy skills</p>
+  <p>B. Enhanced employment opportunities</p>
+  <p>C. Support for lifelong learning</p>
+   <p>D. Social inclusion and community development </p>
+			</div>
+						<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Challenges and Opportunities</h3>
+				<p>A. Accessibility in remote areas
+  <p>B. Quality of education and assessment standards</p>
+ <p>C. Potential for expansion and improvement</p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Follow Us</h3>
+			<li>@ALSMF</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Email Us</h3>
+			<li>ALSMG@gmail.com</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<li>Tel #008-008-000</li>
+			<li>Phone #0995-085-8407</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Locate Us</h3>
+			<li> <a href="https://www.google.com/maps/place/San+Miguel,+Manolo+Fortich,+Bukidnon/@8.3793854,124.8107527,14z/data=!3m1!4b1!4m6!3m5!1s0x32ff95d9b201eddb:0x8d814524d2ee0352!8m2!3d8.3810743!4d124.834821!16s%2Fg%2F11fyx9_5z0?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D">ALS Manolo Maps</a><li>
+		</div>
+
+		<div class="copyright">
+			<p>Copyright @ 2022 All rights reserved | This template is made by Jelly Ann</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
